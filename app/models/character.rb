@@ -13,22 +13,3 @@ class Character < ActiveRecord::Base
     
   end
 end
-
-Character.new.say_that_thing_you_say
-
-khaleesi = Character.new
-khaleesi.hair = "brown"
-khaleesi.eyes = "blue"
-khaleesi.say_that_thing_you_say
-
-
-khalees = Character.new
-khalei = Character.new
-khesi = Character.new
-kheesi = Character.new
-khaleesi = Character.new
-khaleesi = Character.new
-
-Character.add_to_all_character_list
-
-khaleesi.say_that_thing_you_say
